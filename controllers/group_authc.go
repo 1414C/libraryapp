@@ -1,7 +1,7 @@
 package controllers
 
 //=============================================================================================
-// GroupAuth entity controller code generated on 27 May 20 17:32 CDT
+// GroupAuth entity controller code generated on 27 May 20 17:57 CDT
 //=============================================================================================
 
 import (

@@ -1,7 +1,7 @@
 package controllers
 
 //=============================================================================================
-// Auth entity controller code generated on 27 May 20 17:32 CDT
+// Auth entity controller code generated on 27 May 20 17:57 CDT
 //=============================================================================================
 
 import (

@@ -3,16 +3,16 @@
     "internal_address": "xxx.xxx.xxx.xxx:4444",
     "env": "dev",
     "ping_cycle": 1,
-    "failure_threshold": 5,     
-    "pepper": "secret-pepper-key",  
+    "failure_threshold": 5,
+    "pepper": "secret-pepper-key",
     "hmac_Key": "secret-hmac-key",
     "database": {
         "db_dialect": "sqlite",
-        "host":       "",
-	"port":       0,
-	"usr":        "",
-	"password":   "",
-	"name":       "",
+        "host": "",
+        "port": 0,
+        "usr": "",
+        "password": "",
+        "name": "testbd.db",
         "ormLogActive": true,
         "ormDebugTraceActive": false
     },
@@ -48,7 +48,7 @@
         "errorMsgs": true,
         "debugMsgs": false,
         "traceMsgs": false
-        },
+    },
     "cert_file": "",
     "key_file": "",
     "rsa256_priv_key_file": "",
@@ -67,12 +67,12 @@
     "jwt_lifetime": 120,
     "service_activations": [
         {
-            "service_name":   "Library",
+            "service_name": "Library",
             "service_active": true
         },
         {
-            "service_name":   "Book",
+            "service_name": "Book",
             "service_active": true
         }
-        ]
+    ]
 }
