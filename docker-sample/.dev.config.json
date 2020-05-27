@@ -1,0 +1,78 @@
+{
+    "external_address": "xxx.xxx.xxx.xxx:8080",
+    "internal_address": "xxx.xxx.xxx.xxx:4444",
+    "env": "dev",
+    "ping_cycle": 1,
+    "failure_threshold": 5,     
+    "pepper": "secret-pepper-key",  
+    "hmac_Key": "secret-hmac-key",
+    "database": {
+        "db_dialect": "postgres",
+        "host":       "localhost",
+		"port":       5432,
+		"usr":        "godev",
+		"password":   "gogogo123",
+		"name":       "glrestgen",
+        "ormLogActive": true,
+        "ormDebugTraceActive": false
+    },
+    "group_leader_kvs": {
+        "local_standalone": {
+            "active": true,
+            "internal_address": "127.0.0.1:4444"
+        },
+        "redis": {
+            "active": false,
+            "max_idle": 80,
+            "max_active": 12000,
+            "redis_protocol": "tcp",
+            "redis_address": "127.0.0.1:6379"
+        },
+        "memcached": {
+            "active": false,
+            "memcached_addresses": [
+                "192.168.112.50:11211"
+            ]
+        },
+        "sluggo": {
+            "active": false,
+            "sluggo_address": "127.0.0.1:7070"
+        }
+    },
+    "logging": {
+        "active": true,
+        "callLocation": true,
+        "colorMsgTypes": true,
+        "infoMsgs": true,
+        "warningMsgs": true,
+        "errorMsgs": true,
+        "debugMsgs": true,
+        "traceMsgs": true
+        },
+    "cert_file": "",
+    "key_file": "",
+    "rsa256_priv_key_file": "",
+    "rsa256_pub_key_file": "",
+    "rsa384_priv_key_file": "",
+    "rsa384_pub_key_file": "",
+    "rsa512_priv_key_file": "",
+    "rsa512_pub_key_file": "",
+    "ecdsa256_priv_key_file": "",
+    "ecdsa256_pub_key_file": "",
+    "ecdsa384_priv_key_file": "jwtkeys/ecdsa384/ec384.priv.pem",
+    "ecdsa384_pub_key_file": "jwtkeys/ecdsa384/ec384.pub.pem",
+    "ecdsa521_priv_key_file": "",
+    "ecdsa521_pub_key_file": "",
+    "jwt_sign_method": "ES384",
+    "jwt_lifetime": 120,
+    "service_activations": [
+        {
+            "service_name":   "Library",
+            "service_active": true
+        },
+        {
+            "service_name":   "Book",
+            "service_active": true
+        }
+        ]
+}
