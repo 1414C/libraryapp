@@ -1,6 +1,6 @@
 # libraryapp
 
-Libraryapp exposes a Library service and a Book service in order to simplify the test-drive of a jiffy generated application.  To make the experience as simple as possible, the services can be tested simply by loading the docker image (libraryapp.tar) contained in this repository.
+Libraryapp exposes a Library service and a Book service in order to simplify the test-drive of a jiffy generated application.  To make the experience as simple as possible, the services can be tested simply by loading the docker image ([libraryapp.tar](https://github.com/1414C/libraryapp/blob/master/libraryapp.tar)) contained in this repository.
 
 Check out the tutorial in the [Jiffy Showcases](https://1414c.github.io/jiffy/showcase/#simple-application-to-demonstrate-relationships) section of the Jiffy documentation.
 
